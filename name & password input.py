@@ -2,7 +2,7 @@ import getpass
 import hashlib
 
 print('Follow the instructions below carefully')
-choice = input('Login Or Register?\nchm')
+choice = input('Login Or Register?\n')
 
 
 if (choice == 'register' or 'Register'):
