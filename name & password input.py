@@ -2,7 +2,7 @@ import getpass
 import hashlib
 
 print('Follow the instructions below carefully')
-choice = input('Login Or Register?')
+choice = input('Login Or Register?\nchm')
 
 
 if (choice == 'register' or 'Register'):
@@ -16,6 +16,6 @@ if (choice == 'register' or 'Register'):
         print('Welcome,', name)
         print('Your password is:', password)
     else:
-        print('Invalid User,',name and password)
+        print('Invalid name or passoword')
 
 
