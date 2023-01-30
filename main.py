@@ -2,10 +2,10 @@ import getpass
 import hashlib
 
 print('Follow the instructions below carefully')
-choice = input('Login Or Register?\n')
+choice = input('Admin Or User\n')
 
-
-if (choice == 'register' or 'Register'):
+#Code to check if person is entering as a user or an admin
+if (choice == 'Admin'):
     name = input('Enter your name:\n')
     password = getpass.getpass()
     password_input = hashlib.sha256(password.encode()).hexdigest()
@@ -18,14 +18,14 @@ if (choice == 'register' or 'Register'):
 
         balance = 1000
         opt_1 = balance
-        opt_2 = 'Your registered name is', name
+        opt_2 =  name
         print('1. Check Balance')
         print('2. Check Name')
         option = int(input('Select your option\n'))
         if (option == 1):
             print('Your balance is', opt_1)
         else:
-            print(opt_2)
+            print('Registered name is', opt_2)
     else:
         print('Invalid name or passoword')
 else:
