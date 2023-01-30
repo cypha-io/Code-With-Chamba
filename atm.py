@@ -21,6 +21,7 @@ class ATM:
 atm = ATM(0)
 
 while True:
+    print('CYPHA INC - ATM SYSTEM')
     print("Welcome to Cypha-ATM")
     print("1. Check balance")
     print("2. Deposit")
