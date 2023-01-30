@@ -18,10 +18,10 @@ class ATM:
             print("You have withdrawn:", amount)
             print("Your updated balance is:", self.balance)
 
-atm = ATM(1000)
+atm = ATM(0)
 
 while True:
-    print("Welcome to ATM")
+    print("Welcome to Cypha-ATM")
     print("1. Check balance")
     print("2. Deposit")
     print("3. Withdraw")
@@ -37,7 +37,7 @@ while True:
         amount = int(input("Enter amount to withdraw: "))
         atm.withdraw(amount)
     elif choice == 4:
-        print("Thank you for using ATM")
+        print("Thank you for using Cypha-ATM")
         break
     else:
         print("Invalid choice, please try again")
