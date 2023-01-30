@@ -1,1 +1,1 @@
-# cypha-teaches a new initiative by cyphahimself to help teach other young developers like me. I am going to make all the codes public for any one to see and can use and also make changes if he or she see a mistake or has some contributions towards the codes.
+# Code-With-Chamba, a new initiative by cyphahimself to help teach other young developers like him. Code-With-Chamba is going to make all the codes public for any one to see and can use and also make changes if he or she sees a mistake or has some contributions towards the codes.
