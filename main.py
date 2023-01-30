@@ -24,8 +24,10 @@ if (choice == 'Admin'):
         option = int(input('Select your option\n'))
         if (option == 1):
             print('Your balance is', opt_1)
-        else:
+        elif(option == 2):
             print('Registered name is', opt_2)
+        else:
+            print('Error!')
     else:
         print('Invalid name or passoword')
 else:
