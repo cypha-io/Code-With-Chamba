@@ -1,5 +1,10 @@
+
 #first_header{
     color: red;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 65px;
+}
+#second_header{
+    color: yellow
+}
+#third_header{
+    color: greenyellow;
 }
