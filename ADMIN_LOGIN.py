@@ -16,11 +16,12 @@ if (choice == 'Admin'):
         print('Welcome,', name)
         print('Your password is:', password)
 
+        #change this to fit Assigned Teammates tomorrow
         balance = 1000
         opt_1 = balance
         opt_2 =  name
-        print('1. Check Balance')
-        print('2. Check Name')
+        print('1. Check Assigned Work')
+        print('2. Check Team Members')
         option = int(input('Select your option\n'))
         if (option == 1):
             print('Your balance is', opt_1)
