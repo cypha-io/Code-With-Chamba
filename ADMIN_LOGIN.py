@@ -5,7 +5,7 @@ print('Follow the instructions below carefully')
 choice = input('Admin Or User\n')
 
 #Code to check if person is entering as a user or an admin
-if (choice == 'Admin'):
+if (choice == 'Admin' or 'admin'):
     name = input('Enter your name:\n')
     password = getpass.getpass()
     password_input = hashlib.sha256(password.encode()).hexdigest()

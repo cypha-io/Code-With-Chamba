@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 # Load the data
-data = pd.read_csv("data.csv")
+data = pd.read_csv("AI_data.csv")
 # Add your CSV file
 
 # Split the data into training and testing sets
