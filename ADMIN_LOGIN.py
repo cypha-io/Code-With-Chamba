@@ -24,17 +24,31 @@ if (choice == 'Admin' or 'admin'):
         opt_1 = ass_wrk
         opt_2 =  'No available members. Thank you.'
     while True:    
-        print('1. Check Assigned Work. Thank you.')
+        print('1. Check Assigned Work')
         print('2. Check Team Members')
-        print('3. Exit')
+        print('3. Password')
+        print('4. Exit')
         option = int(input('Select your option: '))
         if (option == 1):
+            time.sleep(3)
             print(opt_1)
             print('----------------------------------------')
         elif(option == 2):
+            time.sleep(3)
             print(opt_2)
             print('----------------------------------------')
         elif(option == 3):
+            time.sleep(3)
+            print('1. Check Password')
+            print('2. Reset Password')
+            pass_ = int(input('Select your option: '))
+            if(pass_ == 1):
+                time.sleep(3)
+                print('Your current password is:', password)
+            
+        elif(option == 4):
+            print('Exiting Please Wait....')
+            time.sleep(5)
             break
         else:
             print('Error!')
