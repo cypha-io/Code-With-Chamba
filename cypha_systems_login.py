@@ -20,7 +20,6 @@ if (choice == 'Admin' or 'admin'):
         print('Loading....')
         time.sleep(2)
         print('Welcome,', name)
-
         ass_wrk = 'You have no assigned work'
         opt_1 = ass_wrk
         opt_2 =  'No available members. Thank you.'
