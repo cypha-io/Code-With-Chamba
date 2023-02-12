@@ -7,7 +7,6 @@ print('Admin || Guest User')
 choice = input('Login As: ')
 
 
-#Code to check if person is entering as a user or an admin
 if (choice == 'Admin' or 'admin'):
     name = input('Enter your name:\n')
     password = getpass.getpass()
@@ -18,8 +17,7 @@ if (choice == 'Admin' or 'admin'):
         print('Loading....')
         time.sleep(2)
         print('Welcome,', name)
-
-#change this to fit Assigned Teammates tomorrow
+        
         ass_wrk = 'You have no assigned work'
         opt_1 = ass_wrk
         opt_2 =  'No available members. Thank you.'
