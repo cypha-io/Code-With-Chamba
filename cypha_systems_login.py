@@ -2,24 +2,25 @@ import getpass
 import time
 import hashlib
 
-print('Follow the instructions below carefully')
-print('Admin || Guest User')
+
+print('Welcome To Cypha Python Systems')
+print('Please Wait...')
+time.sleep(3)
+
 choice = input('Login As: ')
 
 
-#Code to check if person is entering as a user or an admin
 if (choice == 'Admin' or 'admin'):
     name = input('Enter your name:\n')
     password = getpass.getpass()
     password_input = hashlib.sha256(password.encode()).hexdigest()
     stored_password = password
 
-    if (name == 'chamba' or name == 'Chamba' and password == stored_password):
+    if (name == True  and password == stored_password):
         print('Loading....')
         time.sleep(2)
         print('Welcome,', name)
 
-#change this to fit Assigned Teammates tomorrow
         ass_wrk = 'You have no assigned work'
         opt_1 = ass_wrk
         opt_2 =  'No available members. Thank you.'
@@ -54,5 +55,3 @@ if (choice == 'Admin' or 'admin'):
             print('Error!')
     else:
         print('Invalid name or passoword')
-else:
-    print('Kindly try again soon...')
