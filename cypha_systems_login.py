@@ -20,9 +20,8 @@ if (choice == 'Admin' or 'admin'):
         print('Loading....')
         time.sleep(2)
         print('Welcome,', name)
-        ass_wrk = 'You have no assigned work'
-        opt_1 = ass_wrk
-        opt_2 =  'No available members. Thank you.'
+    ass_wrk = 'You have no assigned work'
+    opt_2 =  'No available members. Thank you.'
     while True:    
         print('1. Check Assigned Work')
         print('2. Check Team Members')
@@ -31,7 +30,7 @@ if (choice == 'Admin' or 'admin'):
         option = int(input('Select your option: '))
         if (option == 1):
             time.sleep(3)
-            print(opt_1)
+            print(ass_wrk)
             print('----------------------------------------')
         elif(option == 2):
             time.sleep(3)
