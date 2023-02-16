@@ -14,9 +14,11 @@ if (choice == 'Admin' or 'admin'):
     name = input('Enter your name:\n')
     password = getpass.getpass()
     password_input = hashlib.sha256(password.encode()).hexdigest()
-    stored_password = password
+    stored_password = 'admin123'
 
-    if (name == True  and password == stored_password):
+    if (password != stored_password):
+        print('Error 403')
+    if (name == 'chamba' or name == 'nartey'  and password == stored_password):
         print('Loading....')
         time.sleep(2)
         print('Welcome,', name)
