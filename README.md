@@ -10,4 +10,4 @@ copyright 2023 || cyphahimself
 
 instagram: https://instagram.com/cyphahimself
 
-email: cyphacompany@gmail.com
+email: cyphahimself@teensraveofficial.com
