@@ -6,8 +6,11 @@ import hashlib
 print('Welcome To Cypha Python Systems')
 print('Please Wait...')
 time.sleep(3)
+
+error = 'Error 404'
 ass_wrk = 'You have no assigned work'
 opt_2 =  'No available members. Thank you.'
+stored_password = 'admin123'
 
 choice = input('Login As: ')
 
@@ -16,15 +19,13 @@ if (choice == 'Admin' or 'admin'):
     name = input('Enter your name:\n')
     password = getpass.getpass()
     password_input = hashlib.sha256(password.encode()).hexdigest()
-    stored_password = 'admin123'
 
 
 
 
 
 
-
-    if (name == 'chamba' or name == 'nartey'  and password == stored_password):
+if (name == 'chamba' or name == 'nartey'  and password == stored_password):
         print('Loading....')
         time.sleep(2)
         print('Welcome,', name)
@@ -35,28 +36,39 @@ if (choice == 'Admin' or 'admin'):
             print('4. Exit')
             option = int(input('Select your option: '))
             if (option == 1):
-                time.sleep(3)
+                print('Please wait...')
+                time.sleep(2)
+                print('----------------------------------------')
                 print(ass_wrk)
                 print('----------------------------------------')
             elif(option == 2):
-                time.sleep(3)
+                print('Please wait...')
+                time.sleep(2)
+                print('----------------------------------------')
                 print(opt_2)
                 print('----------------------------------------')
             elif(option == 3):
+                print('Please wait...')
                 time.sleep(3)
+                print('----------------------------------------')
                 print('1. Check Password')
                 print('2. Reset Password')
                 pass_ = int(input('Select your option: '))
                 if(pass_ == 1):
-                    time.sleep(3)
+                    print('----------------------------------------')
+                    print('Please wait...')
+                    time.sleep(2)
+                    print('----------------------------------------')
                     print('Your current password is:', password)
+                    print('----------------------------------------')
                 
             elif(option == 4):
+                print('----------------------------------------')
                 print('Exiting Please Wait....')
-                time.sleep(5)
+                time.sleep(3)
                 break
             else:
                 print('Error!')
-    else:
-        print('invalid')
+else:
+        print('Invalid Username Or Password')
     
