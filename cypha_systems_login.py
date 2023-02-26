@@ -50,17 +50,21 @@ if (name == 'chamba' or name == 'nartey'  and password == stored_password):
             elif(option == 3):
                 print('Please wait...')
                 time.sleep(3)
-                print('----------------------------------------')
-                print('1. Check Password')
-                print('2. Reset Password')
-                pass_ = int(input('Select your option: '))
-                if(pass_ == 1):
+                while True:
                     print('----------------------------------------')
-                    print('Please wait...')
-                    time.sleep(2)
-                    print('----------------------------------------')
-                    print('Your current password is:', password)
-                    print('----------------------------------------')
+                    print('1. Check Password')
+                    print('2. Reset Password')
+                    print('4. Exit')
+                    pass_ = int(input('Select your option: '))
+                    if(pass_ == 1):
+                        print('----------------------------------------')
+                        print('Please wait...')
+                        time.sleep(2)
+                        print('----------------------------------------')
+                        print('Your current password is:', password)
+                        print('----------------------------------------')
+                    elif(pass_ == 3):
+                        break
                 
             elif(option == 4):
                 print('----------------------------------------')
