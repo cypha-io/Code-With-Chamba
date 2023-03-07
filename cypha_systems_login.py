@@ -7,7 +7,7 @@ print('Welcome To Cypha Python Systems')
 print('Please Wait...')
 time.sleep(3)
 
-error = 'Error 404'
+error = 'User details denied'
 ass_wrk = 'You have no assigned work'
 opt_2 =  'No available members. Thank you.'
 stored_password = 'admin123'
@@ -19,13 +19,20 @@ if (choice == 'Admin' or 'admin'):
     name = input('Enter your name:\n')
     password = getpass.getpass()
     password_input = hashlib.sha256(password.encode()).hexdigest()
+if password == stored_password:
+    print('Details Accepted...')
+    time.sleep(2)
+
+    
+    
+        
 
 
 
 
 
 
-if (name == 'chamba' or name == 'nartey'  and password == stored_password):
+    if (name == 'chamba'):
         print('Loading....')
         time.sleep(2)
         print('Welcome,', name)
@@ -73,6 +80,8 @@ if (name == 'chamba' or name == 'nartey'  and password == stored_password):
                 break
             else:
                 print('Error!')
-else:
-        print('Invalid Username Or Password')
+    else:
+        print('Invalid Username')
+elif password != stored_password:
+    print(error)
     
