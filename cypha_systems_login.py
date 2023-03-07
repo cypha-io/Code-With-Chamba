@@ -54,7 +54,7 @@ if (name == 'chamba' or name == 'nartey'  and password == stored_password):
                     print('----------------------------------------')
                     print('1. Check Password')
                     print('2. Reset Password')
-                    print('4. Exit')
+                    print('3. Exit')
                     pass_ = int(input('Select your option: '))
                     if(pass_ == 1):
                         print('----------------------------------------')
