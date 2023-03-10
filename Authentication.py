@@ -47,7 +47,7 @@ def main() -> None:
             name = input('Enter your name: ').lower()
             password = check_password()
             if authenticate(name, password, stored_password):
-                print('Loading....')
+                print('Please Wait....')
                 time.sleep(2)
                 print(f'Welcome, {name.title()}')
                 while True:

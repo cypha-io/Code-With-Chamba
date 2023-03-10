@@ -12,16 +12,19 @@ ass_wrk = 'You have no assigned work'
 opt_2 =  'No available members. Thank you.'
 stored_password = 'admin123'
 
-choice = input('Login As: ')
+print('ADMIN | GUEST | ROOTUSER')
+choice = input('>')
 
 
-if (choice == 'Admin' or 'admin'):
-    name = input('Enter your name:\n')
+if (choice == 'Admin' or 'admin' or 'ADMIN'):
+    name = input('Enter your name: ')
     password = getpass.getpass()
     password_input = hashlib.sha256(password.encode()).hexdigest()
+elif(choice != 'Admin' or 'admin' or 'ADMIN'):
+    print(error)
 if password == stored_password:
     print('Details Accepted...')
-    time.sleep(2)
+    time.sleep(1)
 
     
     
@@ -33,7 +36,7 @@ if password == stored_password:
 
 
     if (name == 'chamba'):
-        print('Loading....')
+        print('Please Wait....')
         time.sleep(2)
         print('Welcome,', name)
         while True:    
