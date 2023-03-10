@@ -1,9 +1,5 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/cyphahimself/Code-With-Chamba">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Code-With-Chamba</h3>
 
   <p align="center">
@@ -21,7 +17,7 @@
   </p>
 </p>
 
-![Stargazers](https://img.shields.io/github/stars/cyphahimself/Code-With-Chamba?style=social) ![Issues](https://img.shields.io/github/issues/cyphahimself/Code-With-Chamba) ![License](https://img.shields.io/github/license/cyphahimself/Code-With-Chamba) 
+![Stargazers](https://img.shields.io/github/stars/cyphahimself/Code-With-Chamba?style=social) ![Issues](https://img.shields.io/github/issues/cypha-io/Code-With-Chamba) ![License](https://img.shields.io/github/license/cypha-io/Code-With-Chamba) 
 
 ## About The Project
 
@@ -36,43 +32,11 @@ Codespaces || Python || cyphahimself || Cypha-IO Team
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-* npm
-
-```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-
-2. Clone the repo
-
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-
-3. Install NPM packages
-
-```sh
-npm install
-```
-
-4. Enter your API in `config.js`
-
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
-
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+
 
 ## Roadmap
 
@@ -89,9 +53,9 @@ Contributions are what make the open source community such an amazing place to b
 ### Creating A Pull Request
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b cypha-io/code-with-chamba`)
+3. Commit your Changes (`git commit -m 'Add some CodeWithChaba'`)
+4. Push to the Branch (`git push origin cypha-io/code-with-chamba`)
 5. Open a Pull Request
 
 ## License
