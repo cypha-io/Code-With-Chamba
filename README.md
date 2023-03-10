@@ -17,7 +17,7 @@
   </p>
 </p>
 
-![Stargazers](https://img.shields.io/github/stars/cyphahimself/Code-With-Chamba?style=social) ![Issues](https://img.shields.io/github/issues/cypha-io/Code-With-Chamba) ![License](https://img.shields.io/github/license/cypha-io/Code-With-Chamba) 
+![Stargazers](https://img.shields.io/github/stars/cypha-io/Code-With-Chamba?style=social) ![Issues](https://img.shields.io/github/issues/cypha-io/Code-With-Chamba) ![License](https://img.shields.io/github/license/cypha-io/Code-With-Chamba) 
 
 ## About The Project
 
