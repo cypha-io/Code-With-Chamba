@@ -15,7 +15,7 @@ print("The Area Is",area)
 #Number 2
 import math
 
-a = float(input("Enter the value of A: "))
+A = float(input("Enter the value of A: "))
 b = float(input("Enter the value of B: "))
 c = float(input("Enter the value of C: "))
 

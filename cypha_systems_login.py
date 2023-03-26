@@ -8,9 +8,12 @@ print('Please Wait...')
 time.sleep(3)
 
 error = 'User details denied'
+team = ['Chamba', 'Alice', 'Ama']
 ass_wrk = 'You have no assigned work'
-opt_2 =  'No available members. Thank you.'
+opt_2 =  len(team)
 stored_password = 'admin123'
+
+
 
 print('ADMIN | GUEST | ROOTUSER')
 choice = input('>')
@@ -55,7 +58,7 @@ if password == stored_password:
                 print('Please wait...')
                 time.sleep(2)
                 print('----------------------------------------')
-                print(opt_2)
+                print('You have', opt_2, 'members currently')
                 print('----------------------------------------')
             elif(option == 3):
                 print('Please wait...')
