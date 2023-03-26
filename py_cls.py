@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 x = "THE FUN PART OF PROGRAMMING IS WRITING SYNTAX"
 
 lenght = len(x)
@@ -33,4 +34,6 @@ else:
     print("x2 =", x2)
 
 
+=======
+>>>>>>> e09541a59d724bc60a7859989337f39848dd6548
 
