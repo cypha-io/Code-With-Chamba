@@ -77,8 +77,10 @@ if password == stored_password:
                         print('Your current password is:', password)
                         print('----------------------------------------')
                     elif (pass_ == 2):
-                        print ='What is your old password?'
-                        new_pass = input('What is your old password?\n')
+                        print = 'What is your old password?'
+                        new_pass = input('>')
+                    if (new_pass == stored_password):
+                        print('Just a moment')
                         
                     elif(pass_ == 3):
                         break
@@ -98,5 +100,3 @@ elif password != stored_password:
 
 
 
-
-habkjadbkjablkjbad
