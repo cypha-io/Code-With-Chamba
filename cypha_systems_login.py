@@ -23,7 +23,7 @@ if (choice == 'Admin' or 'admin' or 'ADMIN'):
     name = input('Enter your name: ')
     password = getpass.getpass()
     password_input = hashlib.sha256(password.encode()).hexdigest()
-elif(choice != 'Admin' or 'admin' or 'ADMIN'):
+else:
     print(error)
 if password == stored_password:
     print('Details Accepted...')
@@ -76,6 +76,10 @@ if password == stored_password:
                         print('----------------------------------------')
                         print('Your current password is:', password)
                         print('----------------------------------------')
+                    elif (pass_ == 2):
+                        print ='What is your old password?'
+                        new_pass = input('What is your old password?\n')
+                        
                     elif(pass_ == 3):
                         break
                 
@@ -91,3 +95,8 @@ if password == stored_password:
 elif password != stored_password:
     print(error)
     
+
+
+
+
+habkjadbkjablkjbad
