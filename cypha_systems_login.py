@@ -59,11 +59,19 @@ if password == stored_password:
                 time.sleep(2)
                 print('----------------------------------------')
                 print('You have', opt_2, 'members currently')
+                ask_mem = input('Do you want to add a member?\n')
+                if (ask_mem == 'Yes' or ask_mem == 'yes' or ask_mem == 'YES'):
+                    add_mem = input('New Member Name: ')
+                    team.append(add_mem)
+                else:
+                    print('Okay, no members will be added')
+                    print('----------------------------------------')
                 ask_if = input('Do you want to list them? ')
                 if (ask_if == 'Y' or ask_if == "y" or ask_if == 'Yes' or ask_if == 'yes' or ask_if == 'YES'):
                     print('Your team members are:', team)
                 else:
-                    print('Well... Your own choice!:)')
+                    print('----------------------------------------')
+                    print('Okay, no members will be listed')
                 print('----------------------------------------')
             elif(option == 3):
                 print('Please wait...')
