@@ -9,9 +9,12 @@ time.sleep(3)
 
 error = 'User details denied'
 team = ['Chamba', 'Alice', 'Ama']
-ass_wrk = 'You have no assigned work'
 opt_2 =  len(team)
 stored_password = 'admin123'
+
+#Assigment of works
+curent_work = []
+ass_wrk = curent_work
 
 
 
@@ -30,8 +33,8 @@ if password == stored_password:
     time.sleep(1)
 
     
-    
-        
+
+
 
 
 
@@ -51,9 +54,22 @@ if password == stored_password:
             if (option == 1):
                 print('Please wait...')
                 time.sleep(2)
+                
                 print('----------------------------------------')
-                print(ass_wrk)
-                print('----------------------------------------')
+                ask_work = input('Do you want to start work?\n')
+                if (ask_work == 'Yes' or ask_work == 'YES' or ask_work == 'yes'):
+                    add_work = input('Enter your prefared work: ')
+                    curent_work.append(add_work)
+                    print('Your current work is/are: ',curent_work)
+                    print('----------------------------------------')
+                    
+                elif (curent_work == []):
+                        print('----------------------------------------')
+                        print('You have no active works available')
+                        print('----------------------------------------')
+                        
+                else:
+                        print('test run success')
             elif(option == 2):
                 print('Please wait...')
                 time.sleep(2)
